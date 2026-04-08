@@ -1,6 +1,6 @@
 # TTL BASED POLICE SIREN
 __________________________________________________
-## FALSTAD SCHEM
+## SIMULATION
 
 First schem on falstad, using the guide : https://is.gd/lMH7cU 
 <img width="1051" height="667" alt="image" src="https://github.com/user-attachments/assets/434c343c-6b33-4609-97b4-3fcaf0b3e08a" />
