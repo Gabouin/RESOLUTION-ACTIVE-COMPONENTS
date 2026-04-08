@@ -31,3 +31,14 @@ My final TTL circuit is basicaly an astable multivibrator that is meant to look 
 I made the schematic on KiCad :
 
 <img width="907" height="632" alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
+
+## PCB DESIGN 
+
+I made an edge cuts' shape based on a police siren and put all the components inside to have the blue LEDS on one side and the red LEDS on the other side, the other components in the middle with still somwhere to add silkscreen. I made 4 try to wire everything before having what seems correct to me : 
+
+<img width="841" height="759" alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
+
+
+
+
+
