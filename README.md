@@ -46,5 +46,10 @@ Back one :
 <img width="617" height="662" alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" />
 
 
+_____________________________________________________________________________________________________________________________________________
 
+
+### This project was made for the 2nd week of RESOLUTION - Hack Club
+
+### Thank you to the whole team of reviewers !
 
