@@ -38,6 +38,18 @@ I made an edge cuts' shape based on a police siren and put all the components in
 
 <img width="841" height="759" alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
 
+After that, I took fun making the silscreen ! 
+
+Front one : 
+
+<img width="711" height="733" alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" />
+<img width="632" height="642" alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
+
+
+Back one :
+
+<img width="638" height="716" alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" />
+<img width="617" height="662" alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" />
 
 
 
