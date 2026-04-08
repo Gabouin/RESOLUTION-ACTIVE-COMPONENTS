@@ -26,4 +26,8 @@ The second try on falstad : https://is.gd/G7ro6Q (tried other things but had the
 
 My final TTL circuit is basicaly an astable multivibrator that is meant to look like a **police siren** !
 
-## PCB DESIGN
+## SCHEM DESIGN
+
+I made the schematic on KiCad :
+
+<img width="907" height="632" alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
