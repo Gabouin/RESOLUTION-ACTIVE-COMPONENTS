@@ -3,7 +3,8 @@ __________________________________________________
 ## SIMULATION
 
 First schem on falstad, using the guide : https://is.gd/lMH7cU 
-<img width="1051" height="667" alt="image" src="https://github.com/user-attachments/assets/434c343c-6b33-4609-97b4-3fcaf0b3e08a" />
+
+<img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/434c343c-6b33-4609-97b4-3fcaf0b3e08a" />
 
 ____________________________________________________________________________________________________________________________________________________________________
 
@@ -24,26 +25,26 @@ The second try on falstad : https://is.gd/G7ro6Q (tried other things but had the
 
 I made the schematic on KiCad :
 
-<img width="907" height="632" alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
+<img width="1007" height="632" alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
 
 ## PCB DESIGN 
 
 I made an edge cuts' shape based on a police siren and put all the components inside to have the blue LEDS on one side and the red LEDS on the other side, the other components in the middle with still somwhere to add silkscreen. I made 4 try to wire everything before having what seems correct to me : 
 
-<img width="841" height="759" alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
+<img width="421" height="359" alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
 
 After that, I took fun making the silscreen ! 
 
 Front one : 
 
-<img width="711" height="733" alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" />
-<img width="632" height="642" alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
+<img width="311" height="333" alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" />
+<img width="332" height="342" alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
 
 
 Back one :
 
-<img width="638" height="716" alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" />
-<img width="617" height="662" alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" />
+<img width="338" height="316" alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" />
+<img width="317" height="362" alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" />
 
 
 _____________________________________________________________________________________________________________________________________________
