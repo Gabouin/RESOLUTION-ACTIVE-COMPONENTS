@@ -1,57 +1,53 @@
 # TTL BASED POLICE SIREN
-__________________________________________________
-## SIMULATION
+<br>
 
-First schem on falstad, using the guide : https://is.gd/lMH7cU 
+## [FALSTAD](https://is.gd/G7ro6Q) SIMULATION 
 
-<img width="500" height="330" alt="image" src="https://github.com/user-attachments/assets/434c343c-6b33-4609-97b4-3fcaf0b3e08a" />
-
-____________________________________________________________________________________________________________________________________________________________________
-
-
-After that, the logical following step was to make an improved version of the atsable multivibrator ! 
-
-The first try on falstad (tried other things but it was a fail) https://lapse.hackclub.com/timelapse/qOix7g-3-TwW
-
-The second try on falstad : https://is.gd/G7ro6Q (tried other things but had the good result after) https://lapse.hackclub.com/timelapse/xlNTRmFHFsBe
 
 ![astable gif](https://github.com/user-attachments/assets/3a7efbe8-ae42-4320-8a09-c7cf85e7c0d8)
 
-### The two transistors alternately switch on and off because when one transistor turns on, it prevents the other from conducting by pulling its base voltage low. The capacitors charge and discharge through the resistors, creating a timing delay that makes the transistors switch states repeatedly, causing the LEDs to blink back and forth, like a siren.
-### My final TTL circuit is basicaly an astable multivibrator that is meant to look like a **police siren** !
-### I choose to make that because I was stuck looking for an idea and ended up having this popping in my head and I tought it would be fun to add in a 3D printed translucent enclosure to make maybe a real police flashing light for cosplay.
+#### The two transistors alternately switch on and off because when one transistor turns on, it prevents the other from conducting by pulling its base voltage low. The capacitors charge and discharge through the resistors, creating a timing delay that makes the transistors switch states repeatedly, causing the LEDs to blink back and forth, like a siren.
+#### My final TTL circuit is basicaly an astable multivibrator that is meant to look like a **police siren** !
+#### I choose to make that because I was stuck looking for an idea and ended up having this popping in my head and I tought it would be fun to add in a 3D printed translucent enclosure to make maybe a real-looking police siren for cosplay.
+<br>  
 
 ## SCHEM DESIGN
 
 I made the schematic on KiCad :
 
-<img width="1007" height="632" alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
+<img width=100% alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
 
 ## PCB DESIGN 
 
-I made an edge cuts' shape based on a police siren and put all the components inside to have the blue LEDS on one side and the red LEDS on the other side, the other components in the middle with still somwhere to add silkscreen. I made 4 try to wire everything before having what seems correct to me : 
+### Components placement
 
-<img width="421" height="359" alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
+I made an edge cut's shape based on a police siren and put all the components inside to have the blue LEDS on one side and the red LEDS on the other side, the other components in the middle with still somewhere to add silkscreen.  
 
-After that, I took fun making the silscreen ! 
+<div align=center>
+  <img width=50% alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
+</div>
 
-Front one : 
+### Silkscreen
 
-<img width="311" height="333" alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" />
-<img width="332" height="342" alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
+<div align="center">
+  <table>
+    <tr>
+      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" /></td>
+      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
+</td>
+      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" /></td>
+      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" /> </td>
+
+  </table>
+</div>
 
 
-Back one :
 
-<img width="338" height="316" alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" />
-<img width="317" height="362" alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" />
 
 
 _____________________________________________________________________________________________________________________________________________
 
 
-### This project was made for the 2nd week of RESOLUTION - Hack Club
-
-### Thank you to the whole team of reviewers !
+#### This project was made for the 2nd week of RESOLUTION - Hack Club
 
 Please take in conscious that lapse (and so hackatime) was only used for the falstad simulation (1 hou) but for the other steps I forgot to use it so the time wasn't counted and the Schem and PCB took me aprox 3hours
