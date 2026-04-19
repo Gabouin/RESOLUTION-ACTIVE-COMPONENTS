@@ -1,5 +1,6 @@
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 # TTL BASED POLICE SIREN
-<br>
 
 ## [FALSTAD](https://is.gd/G7ro6Q) SIMULATION 
 
