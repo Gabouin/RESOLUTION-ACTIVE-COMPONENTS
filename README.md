@@ -46,14 +46,14 @@ I made an edge cut's shape based on a police siren and put all the components in
 
 ## BOM
 
-|Designator                             |Footprint                                       |Quantity|Value     |LCSC Part #|
-|---------------------------------------|------------------------------------------------|--------|----------|-----------|
-|C1, C2                                 |C_Disc_D5.0mm_W2.5mm_P5.00mm                    |2       |12u       |           |
-|D1, D10, D2, D3, D4, D5, D6, D7, D8, D9|LED_D5.0mm                                      |10      |LED       |           |
-|J1                                     |PinHeader_1x02_P2.54mm_Vertical                 |1       |Conn_01x02|           |
-|Q1, Q2                                 |TO-92L_Inline_Wide                              |2       |NPN       |           |
-|R1, R4                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |330       |           |
-|R2, R3                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |1k        |           |
+|Designator                             |Footprint                                       |Quantity|Value     
+|---------------------------------------|------------------------------------------------|--------|----------
+|C1, C2                                 |C_Disc_D5.0mm_W2.5mm_P5.00mm                    |2       |12u       
+|D1, D10, D2, D3, D4, D5, D6, D7, D8, D9|LED_D5.0mm                                      |10      |LED       
+|J1                                     |PinHeader_1x02_P2.54mm_Vertical                 |1       |Conn_01x02
+|Q1, Q2                                 |TO-92L_Inline_Wide                              |2       |NPN       
+|R1, R4                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |330       
+|R2, R3                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |1k        
 
 
 
