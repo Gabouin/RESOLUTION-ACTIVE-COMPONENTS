@@ -1,31 +1,62 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![EDA](https://img.shields.io/badge/EDA-KiCad-blue.svg)
+![Circuit](https://img.shields.io/badge/Circuit-TTL%20Logic-red.svg)
 
-# TTL BASED POLICE SIREN
+# 🚨 TTL-Based Police Siren
 
-## [FALSTAD](https://is.gd/G7ro6Q) SIMULATION 
+A TTL logic circuit designed to mimic a **police siren** using an astable multivibrator. Blue and red LEDs alternate in a blinking pattern, with a custom PCB shaped like a siren light — designed to fit inside a 3D-printed translucent enclosure for a realistic cosplay prop.
 
+---
 
-![astable gif](https://github.com/user-attachments/assets/3a7efbe8-ae42-4320-8a09-c7cf85e7c0d8)
+## 📖 Table of Contents
 
-#### The two transistors alternately switch on and off because when one transistor turns on, it prevents the other from conducting by pulling its base voltage low. The capacitors charge and discharge through the resistors, creating a timing delay that makes the transistors switch states repeatedly, causing the LEDs to blink back and forth, like a siren.
-#### My final TTL circuit is basicaly an astable multivibrator that is meant to look like a **police siren** !
-#### I choose to make that because I was stuck looking for an idea and ended up having this popping in my head and I tought it would be fun to add in a 3D printed translucent enclosure to make maybe a real-looking police siren for cosplay.
-<br>  
+- [About the Project](#about-the-project)
+- [Circuit Simulation](#circuit-simulation)
+- [Schematic Design](#schematic-design)
+- [PCB Design](#pcb-design)
+- [Bill of Materials](#bill-of-materials)
+- [Production Files](#production-files)
+- [License](#license)
+- [Contributing](#contributing)
 
-## SCHEM DESIGN
+---
 
-I made the schematic on KiCad :
+## 📌 About the Project
 
-<img width=100% alt="image" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
+The core of this project is an **astable multivibrator** built from two NPN transistors. The transistors alternately switch on and off: when one turns on, it pulls the other's base voltage low, preventing it from conducting. The capacitors charge and discharge through the resistors, creating a timing delay that causes the transistors to switch states repeatedly — making the LEDs blink back and forth like a siren.
 
-## PCB DESIGN 
+The PCB outline is shaped like a police siren light, with blue LEDs on one side and red LEDs on the other, and components grouped in the centre. The design is intended to fit inside a 3D-printed translucent enclosure for use as a cosplay prop.
 
-### Components placement
+> This project was made for the 2nd week of **RESOLUTION** — Hack Club.
 
-I made an edge cut's shape based on a police siren and put all the components inside to have the blue LEDS on one side and the red LEDS on the other side, the other components in the middle with still somewhere to add silkscreen.  
+---
 
-<div align=center>
-  <img width=50% alt="image" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
+## 🔬 Circuit Simulation
+
+An interactive simulation of the circuit is available on **Falstad Circuit Simulator**:
+
+▶️ [Open the Falstad simulation](https://is.gd/G7ro6Q)
+
+![Astable multivibrator simulation](https://github.com/user-attachments/assets/3a7efbe8-ae42-4320-8a09-c7cf85e7c0d8)
+
+---
+
+## 📐 Schematic Design
+
+The schematic was designed in **KiCad**. Source files are available in the [`Sources/KiCad`](Sources/KiCad) folder.
+
+<img width="100%" alt="Schematic" src="https://github.com/user-attachments/assets/2f5d31db-122c-426a-85ea-819e03e0c495" />
+
+---
+
+## 🖥️ PCB Design
+
+### Component Placement
+
+The PCB edge cut is shaped like a police siren. Blue LEDs are placed on one side and red LEDs on the other, with passive components grouped in the centre.
+
+<div align="center">
+  <img width="50%" alt="PCB component placement" src="https://github.com/user-attachments/assets/bf18229f-c8a7-4f27-bb7d-6c9a849f000b" />
 </div>
 
 ### Silkscreen
@@ -33,33 +64,43 @@ I made an edge cut's shape based on a police siren and put all the components in
 <div align="center">
   <table>
     <tr>
-      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 185900" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" /></td>
-      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 185930" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" />
-</td>
-      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 190022" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" /></td>
-      <td valign="bottom"><img width=100% alt="Capture d&#39;écran 2026-04-08 190014" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" /> </td>
-
+      <td align="center"><img width="100%" alt="Silkscreen view 1" src="https://github.com/user-attachments/assets/869ec768-26f9-442d-971c-4dbc7006351f" /></td>
+      <td align="center"><img width="100%" alt="Silkscreen view 2" src="https://github.com/user-attachments/assets/c051fb0c-fd69-4023-a1f7-cc7fef2344a6" /></td>
+      <td align="center"><img width="100%" alt="Silkscreen view 3" src="https://github.com/user-attachments/assets/572d5b29-a6d5-45bb-a892-da4b09a51ae9" /></td>
+      <td align="center"><img width="100%" alt="Silkscreen view 4" src="https://github.com/user-attachments/assets/f27498d0-91bf-4ecd-8b05-4e4a250a9040" /></td>
+    </tr>
   </table>
 </div>
 
-<br>  
+---
 
-## BOM
+## 🛒 Bill of Materials
 
-|Designator                             |Footprint                                       |Quantity|Value     
-|---------------------------------------|------------------------------------------------|--------|----------
-|C1, C2                                 |C_Disc_D5.0mm_W2.5mm_P5.00mm                    |2       |12u       
-|D1, D10, D2, D3, D4, D5, D6, D7, D8, D9|LED_D5.0mm                                      |10      |LED       
-|J1                                     |PinHeader_1x02_P2.54mm_Vertical                 |1       |Conn_01x02
-|Q1, Q2                                 |TO-92L_Inline_Wide                              |2       |NPN       
-|R1, R4                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |330       
-|R2, R3                                 |R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|2       |1k        
+| Designator | Value | Footprint | Quantity |
+|---|---|---|---|
+| C1, C2 | 12 µF | C_Disc_D5.0mm_W2.5mm_P5.00mm | 2 |
+| D1–D10 | LED | LED_D5.0mm | 10 |
+| J1 | Conn_01x02 | PinHeader_1x02_P2.54mm_Vertical | 1 |
+| Q1, Q2 | NPN | TO-92L_Inline_Wide | 2 |
+| R1, R4 | 330 Ω | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal | 2 |
+| R2, R3 | 1 kΩ | R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal | 2 |
 
+> The full BOM is also available as a CSV file in the [`production`](production) folder.
 
+---
 
-_____________________________________________________________________________________________________________________________________________
+## 📁 Production Files
 
+Gerber files, drill files, BOM, component positions, and netlist are available in the [`production`](production) folder, ready for PCB fabrication.
 
-#### This project was made for the 2nd week of RESOLUTION - Hack Club
+---
 
-Please take in conscious that lapse (and so hackatime) was only used for the falstad simulation (1 hou) but for the other steps I forgot to use it so the time wasn't counted and the Schem and PCB took me aprox 3hours
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🤝 Contributing
+
+Contributions, improvements, and remixes are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) guide to get started.
